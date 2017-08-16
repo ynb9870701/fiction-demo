@@ -1,0 +1,84 @@
+/* pages/page2/page2.wxss */
+
+.cBox {
+  width: 750rpx;
+  min-height: 1206rpx;
+  height: auto;
+  margin: 0 auto;
+  background: #f3f4f5;
+}
+
+li {
+  display: block;
+}
+
+.title {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: white;
+}
+
+.iZn {
+  display: block;
+  float: left;
+  width: 579rpx;
+  padding: 0 20rpx;
+  height: 50rpx;
+  line-height: 0.5rpx;
+  border-right: 1rpx solid #e5e5e5;
+  font-size: 34rpx;
+  margin-top: 20rpx;
+  color: #353535;
+}
+
+.btnCancel {
+  display: block;
+  float: left;
+  width: 130rpx;
+  height: 90rpx;
+  text-align: center;
+  color: #888;
+  font-size: 34rpx;
+}
+
+.ditu {
+  width: 100%;
+  height: 610rpx;
+}
+
+.wzList {
+  width: 750rpx;
+  height: 510rpx;
+  background: white;
+  overflow: scroll;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wzListli {
+  padding: 40rpx 0;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.tDgwz {
+  font-size: 36rpx;
+  color: #353535;
+  margin-left: 70rpx;
+}
+
+.tDgwz text {
+  background: #3cbca3;
+  color: white;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  padding: 0 10rpx;
+  margin-left: 20rpx;
+}
+
+.tXxwz {
+  font-size: 26rpx;
+  color: #888;
+  margin: 14rpx 0 0 70rpx;
+}

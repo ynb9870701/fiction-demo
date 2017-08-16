@@ -1,0 +1,17 @@
+<!-- category.wxml -->
+<view class="container">
+    <!-- 分类列表 -->
+    <view class="item" wx:for="{{categoryList}}">
+        <view class="item-tit">
+            <view>{{item.name}}</view>
+            <view hidden="{{!item.like}}">阅读偏好
+                <text class="icon icon-settings"></text>
+            </view>
+        </view>
+        <view class="item-cont" bindtap="goCtgList">
+            <view class="info"  wx:for="{{item.list}}" wx:for-item="i">
+                {{i.name}}<text class="hot m-l" hidden="{{!i.status}}">热</text>
+            </view>
+        </view>
+    </view>
+</view>

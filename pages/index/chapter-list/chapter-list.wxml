@@ -1,0 +1,12 @@
+<!--pages/index/list/list.wxml-->
+<view class="container">
+  <view class="list-title p text-base">
+    共250章
+  </view>
+  <view class="list-item bg-white p text-base">
+    <view class="b-b p-b">
+      <text>第一章 </text>
+      <text>叶落</text>
+    </view>
+  </view>
+</view>

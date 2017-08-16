@@ -1,0 +1,39 @@
+/* paihang.wxss */
+/* 排行榜导航 */
+.nav{
+    display: flex;
+}
+.nav-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 40rpx;
+}
+.b-r{
+    border-right: 2rpx solid #f3f3f3;
+}
+.recommend image{
+    width: 100%;
+    height: 300rpx;
+}
+/* 排行榜列表 */
+.list{
+    background-color: #fff;
+    padding: 20rpx 40rpx;
+}
+.list-tit{
+    line-height: 60rpx;
+}
+.list-cont{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx 0;
+    border-top: 2rpx solid #f3f3f3;
+}

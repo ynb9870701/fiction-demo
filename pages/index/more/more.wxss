@@ -1,0 +1,8 @@
+/* pages/index/more/more.wxss */
+.item-box-pic{
+
+}
+.item-box-pic image{
+    width: 200rpx;
+    height: 250rpx;
+}

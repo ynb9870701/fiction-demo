@@ -1,0 +1,76 @@
+<!--pages/index/description/description.wxml-->
+<view class="container">
+    <!-- 顶部 -->
+    <view class="desc-header">
+        <image src="/images/3.jpg"></image>
+        <view class="right-box">
+            <view class="title">鲁迅自传</view>
+            <view class="grade m-t">
+                <text class="fa fa-star"></text>
+                <text class="fa fa-star"></text>
+                <text class="fa fa-star"></text>
+                <text class="fa fa-star"></text>
+                <text class="fa fa-star-half-o"></text>
+                <text class="fa fa-star-o"></text>
+                <text class="m-l m-r text-bold text-danger">8.0</text>
+                <text>(72人评分)</text>
+            </view>
+            <view class="author m-t">
+                猪皮怪
+            </view>
+        </view>
+    </view>
+    <!-- 介绍 -->
+    <view class="info bg-white">
+        <view class="flex-wrap">
+            <view class="flex-center-y flex-y flex-1">
+                <text class="text-xl">1w+</text>
+                <text class="text-xs">在读</text>
+            </view>
+            <view class="flex-center-y flex-y flex-1">
+                <text class="text-xl">1w+</text>
+                <text class="text-xs">在读</text>
+            </view>
+            <view class="flex-center-y flex-y flex-1">
+                <text class="text-xl">9527</text>
+                <text class="text-xs">在读</text>
+            </view>
+        </view>
+        <view class="text-sm text-muted p" style="line-height: 44rpx;">
+            内容介绍：我们是在五年前认识的，我们开始了一段惊天寺泣鬼神的恋爱过程．从我们的相知到相许，一直经历了五年的时间．这段时间里有我们的笑有我们的哭，有我们的欣慰有我们的辛酸，有我们的欢乐有我们的悲伤，可以这么说是一段象琼瑶笔下的一个故事，我很想向大家介绍介绍．
+        </view>
+        <view class="new-section flex-wrap flex-lr b-t p" bindtap="goList">
+            <view class="flex-center-y text-base">最新章节：第三百八十一节 <text class="text-danger text-xs m-l">刚刚更新</text></view>
+            <view class="flex-center-y"> > </view>
+        </view>
+    </view>
+    <!-- 评论 -->
+    <view class="comment m-t bg-white">
+        <view class="comment-item p">
+            <view class="item-user flex-center-y">
+                <view class="item-user-pic b">
+                    <image src="/images/activity/1.jpg"/>
+                </view>
+                <text class="m-l text-sm">寻找记忆</text>
+            </view>
+            <view class="text-sm m-t lh-44">
+                有详有略，衔接自然，战斗场面刻画也很细致，也不完全是套路，很喜欢，推荐
+            </view>
+            <view class="flex-center-y flex-lr text-xs m-t">
+                <view class="b-a p-sm text-muted">
+                    评论
+                </view>
+                <view class="flex-wrap text-md text-muted">
+                    <view>
+                        <text class="fa fa-thumbs-o-up"></text>
+                        <text class="m-l-sm">5</text>
+                    </view>
+                    <view class="m-l-md">
+                        <text class="fa fa-comment-o"></text>
+                        <text class="m-l-sm">1</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

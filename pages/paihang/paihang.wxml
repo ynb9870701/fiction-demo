@@ -1,0 +1,27 @@
+<!--paihang.wxml-->
+<view class="container">
+    <!-- 排行版导航 -->
+    <view class="nav m-b">
+        <view class="nav-item {{index == navList.length-1?'':'b-r'}}" wx:for="{{navList}}">
+            <text class="icon {{item.icon}}"></text>
+            <text class="text-base m-t">{{item.name}}</text>
+        </view>
+    </view>
+    <!-- 主编推荐榜 -->
+    <view class="recommend m-b">
+        <image src="../../images/recommend.jpg" />
+    </view>
+    <!-- 排行榜列表 -->
+    <view class="list m-b" wx:for="{{list}}">
+        <view class="list-tit text-base">{{item.name}}</view>
+        <view class="list-cont text-md">
+            <view class="item" wx:for="{{item.info}}" wx:for-item="i" bindtap="goRankList">
+                <view>
+                    <text class="icon {{i.icon}} m-r"></text>
+                    <text>{{i.name}}</text>
+                </view>
+                <view class="text-xs text-primary">{{i.first}} ></view>
+            </view>
+        </view>
+    </view>
+</view>

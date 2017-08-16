@@ -1,0 +1,67 @@
+{
+  "pages":[
+
+    "pages/index/index",
+    "pages/index/more/more",
+    "pages/index/chapter-list/chapter-list",
+    "pages/index/description/description",
+
+    "pages/category/category",
+    "pages/category/ctg-list/ctg-list",
+
+    "pages/paihang/paihang",
+    "pages/paihang/rank-list/rank-list",
+
+    "pages/personal/personal",
+    "pages/search/search",
+
+    "test/didiindex/didiindex",
+    "test/dididingwei/dididingwei",
+    "test/dingwei/dingwei"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#ddd",
+    "selectedColor": "#3ccS1f",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list":[
+        {
+            "iconPath": "images/tabbar/1.png",
+            "selectedIconPath": "images/tabbar/1-hl.png",
+            "pagePath": "pages/index/index",
+            "text": "精选"
+        },
+        {
+            "iconPath": "images/tabbar/2.png",
+            "selectedIconPath": "images/tabbar/2-hl.png",
+            "pagePath": "pages/category/category",
+            "text": "分类"
+        },
+        {
+            "iconPath": "images/tabbar/3.png",
+            "selectedIconPath": "images/tabbar/3-hl.png",
+            "pagePath": "pages/paihang/paihang",
+            "text": "排行"
+        },
+        {
+            "iconPath": "images/tabbar/4.png",
+            "selectedIconPath": "images/tabbar/4-hl.png",
+            "pagePath": "pages/personal/personal",
+            "text": "个人中心"
+        },
+        {
+            "iconPath": "images/tabbar/5.png",
+            "selectedIconPath": "images/tabbar/5-hl.png",
+            "pagePath": "pages/search/search",
+            "text": "搜索"
+        }
+    ]
+  }
+}
+

@@ -1,0 +1,22 @@
+<!--pages/index/more/more.wxml-->
+<view class="container">
+  <view class="more-item bg-white">
+    <view class="item-title p text-base text-bol">
+      主编推荐
+    </view>
+    <view class="item-box flex-wrap text-xs p">
+      <view class="flex-1 flex-center-y flex-y item-box-pic" bindtap="goDescription">
+        <image src="/images/0.jpg"></image>
+        <text class="m-t-sm">借天改明</text>
+      </view>
+      <view class="flex-1 flex-center-y flex-y item-box-pic" bindtap="goDescription">
+        <image src="/images/0.jpg"></image>
+        <text class="m-t-sm">借天改明</text>
+      </view>
+      <view class="flex-1 flex-center-y flex-y item-box-pic" bindtap="goDescription">
+        <image src="/images/0.jpg"></image>
+        <text class="m-t-sm">借天改明</text>
+      </view>
+    </view>
+  </view>
+</view>

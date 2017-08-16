@@ -1,0 +1,23 @@
+<!--pages/paihang/rank-list/rank-list.wxml-->
+<view class="container">
+  <view class="nav flex-center-y bg-white p text-base b-b">
+    <view class="flex-1 flex-center-x p-sm">完结榜</view>
+    <view class="flex-1 flex-center-x p-sm">完结榜</view>
+    <view class="flex-1 flex-center-x p-sm">完结榜</view>
+    <view class="flex-1 flex-center-x p-sm">完结榜</view>
+  </view>
+  <!-- 列表项 -->
+  <view class="list">
+    <view class="item bg-white b-b" bindtap="goDescription">
+        <image src="/images/3.jpg"></image>
+        <view class="right-box">
+            <view class="title">鲁迅自传</view>
+            <view class="author m-t">
+                猪皮怪
+            </view>
+            <view class="text-muted text-xs m-t">本周23454人在阅读</view>
+            <view class="text-2 text-muted text-xs">我们是在五年前认识的，我们开始了一段惊天寺泣鬼神的恋爱过程．从我们的相知到相许，一直经历了五年的时间．这段时间里有我们的笑有我们的哭，有我们的欣慰有我们的辛酸，有我们的欢乐有我们的悲伤，可以这么说是一段象琼瑶笔下的一个故事，我很想向大家介绍介绍．</view>
+        </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+
+<!--pages/page1/page1.wxml-->
+<view class="cBox" style="overflow: hidden;">
+  <view class="tQn">您好，您现在想去哪儿？</view>
+  <view class="tSj">{{tishi}}</view>
+  <view class="wTw">
+    <view class="wZn">
+      <text class="gBall"></text>
+      <text class="tWzn" bindtap="chufadidingwei">{{chufadi}}</text>
+      <view class="clearfix"></view>
+    </view>
+    <view class="yQn">
+      <text class="pBall"></text>
+      <text class="tYqn" bindtap="mudididingwei">{{mudidi}}</text>
+      <view class="clearfix"></view>
+    </view>
+    <view class="dayue">
+      约
+      <text>{{juli}}</text>cm
+    </view>
+  </view>
+  <view class="btnHj" bindtap="hujiaodache">呼叫快车</view>
+  <view class="btnGz" bindtap="jijiaguize">计价规则</view>
+</view>
+<modal hidden="{{guize_hidden}}" title="计价规则" confirm-text="确定" cancel-text="取消" bindcancel="guize_cancel" bindconfirm="guize_confirm" no-cancel="{{guize_nocancel}}">
+  <view class="tanchuang">1、考生进入“金山打字通”后，请选择速度测试中的书本对照。并在课程设置中选择“自选评测参考文章”，自选文章在“素材”文件夹中，文件名为“ceshi.txt”； 2、文字录入测试时间为15-16分钟，计时不足15分钟或者超过16分钟的成绩均计“零分”。最终成绩提交时间不超过4分钟，总时间不允许超过20分钟。 3、如果需要使用自己熟悉的输入法，请自行安装，安装文件在“素材”文件夹中。1、考生进入“金山打字通”后，请选择速度测试中的书本对照。并在课程设置中选择“自选评测参考文章”，自选文章在“素材”文件夹中，文件名为“ceshi.txt”；
+    2、文字录入测试时间为15-16分钟，计时不足15分钟或者超过16分钟的成绩均计“零分”。最终成绩提交时间不超过4分钟，总时间不允许超过20分钟。 3、如果需要使用自己熟悉的输入法，请自行安装，安装文件在“素材”文件夹中。1、考生进入“金山打字通”后，请选择速度测试中的书本对照。并在课程设置中选择“自选评测参考文章”，自选文章在“素材”文件夹中，文件名为“ceshi.txt”； 2、文字录入测试时间为15-16分钟，计时不足15分钟或者超过16分钟的成绩均计“零分”。最终成绩提交时间不超过4分钟，总时间不允许超过20分钟。
+    3、如果需要使用自己熟悉的输入法，请自行安装，安装文件在“素材”文件夹中。
+  </view>
+</modal>

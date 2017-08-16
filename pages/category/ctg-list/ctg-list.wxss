@@ -1,0 +1,25 @@
+/* pages/category/ctg-list/ctg-list.wxss */
+.item{
+  padding: 30rpx;
+  display: flex;
+}
+
+.item image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.item .right-box{
+    overflow: hidden;
+    flex: 1;
+}
+.item .title{
+    font-size: 28rpx;
+}
+.item .grade{
+    font-size: 24rpx !important;
+}
+.item .author{
+    font-size: 28rpx;
+}

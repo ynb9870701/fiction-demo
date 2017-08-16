@@ -1,0 +1,32 @@
+/* category.wxss */
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.item-tit{
+    padding: 30rpx;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28rpx;
+    color: #999;
+}
+.item-cont{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 33.3333%;
+    padding: 30rpx 0 30rpx 20rpx;
+    border-bottom: 2rpx solid #f3f3f3;
+    border-right: 2rpx solid #f3f3f3;
+    box-sizing: border-box;
+    font-size: 32rpx;
+    display: flex;
+}
+.hot{
+    background-color: red;
+    color: #fff;
+    font-size: 24rpx;
+    padding: 4rpx;
+}

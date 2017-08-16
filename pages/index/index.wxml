@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 轮播图 -->
+    <view class="header">
+        <swiper class="swiper" indicator-color="#fff" indicator-active-color="#999" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="1">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                  <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <!-- 导航栏 -->
+    <view class="nav">
+        <view class="nav-item" wx:for="{{navList}}" bindtap="">
+            <text class="icon {{item.icon}} m-b-sm"></text>
+            <text class="text-base">{{item.name}}</text>
+        </view>
+    </view>
+    <!-- 设置阅读喜好 -->
+    <view class="read-like">
+        <view class="read-like-box">
+            <text class="text-md">男生小说频道</text>
+            <text class="text-xs m-t-sm text-primary">都市、玄幻等5个精选专区 本周人气105.7万</text>
+            <!-- 设置按钮 -->
+            <text class="set-btn icon icon-settings"></text>
+        </view>
+    </view>
+    <!-- 列表 -->
+    <view class="item">
+        <view class="text-md item-title">都市精选</view>
+        <view class="item-con" bindtap="goDesc">
+            <view class="item-con-box" wx:for="{{bookList}}">
+                <image src="../../images/{{index+1}}.jpg" />
+                <text class="text-xs m-t-sm">{{item}}</text>
+            </view>
+        </view>
+        <view class="item-more text-sm m-t" bindtap="goMore">更多 ></view>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+
+<!--pages/page2/page2.wxml-->
+<view class="cBox">
+  <view class="title">
+    <input type="text" class="iZn" placeholder="您在哪儿上车" />
+    <text class="btnCancel" bindtap="quxiao">取消</text>
+    <view class="clearfix"></view>
+  </view>
+  <map id="myMap" class="ditu" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" show-location markers="{{markers}}" bindregionchange="yidongmap"/>
+  <scroll-view scroll-y="true" class="wzList" bindscroll="scroll">
+    <view class="wzListli" wx:for='{{pois}}' data-id='{{index}}' data-title='{{item.title}}' data-address='{{item.address}}' data-category='{{item.category}}' data-location='{{item.location}}' data-_distance='{{item._distance}}' wx:key='{{index}}' bindtap='bindDetail'>
+      <view class="tDgwz">
+        {{index+1}}:{{item.title}}
+        <text>{{item._distance}}cm</text>
+      </view>
+      <view class="tXxwz">
+        {{item.address}}
+      </view>
+    </view>
+  </scroll-view>
+</view>
